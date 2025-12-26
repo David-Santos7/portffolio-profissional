@@ -62,7 +62,6 @@ const projects = [
     githubUrl:
       "https://github.com/David-Santos7/portfolio-profissional",
   },
-  
   {
     title: "Projeto Lógica de programaçao - Adivinhe o número",
     category: "Web Site",
@@ -73,7 +72,7 @@ const projects = [
     liveUrl:
       "https://david-santos7.github.io/jogo-adivinhe-os-numeros/",
     githubUrl:
-      "https://github.com/David-Santos7/jogo-adivinhe-os-numeros",
+      "https://github.com/David-Santos7/jogo-adivinhe-os-numeros/",
   },
   
   {
