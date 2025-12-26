@@ -1,27 +1,30 @@
 import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import logoDSS from "@/assets/logo-site-amarelo.png";
+// se o alias @ não funcionar, use:
+// import logoDSS from "../assets/logo-site-amarelo.png";
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/david-santos-souza-130151260/", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/David-Santos7", label: "GitHub" },
 ];
 
 const Footer = () => {
   return (
-    <footer className="py-16 border-t border-border bg-background">
+    <footer className="py-18 border-t border-border bg-background">
       <div className="container">
         <div className="flex flex-col items-center text-center">
-          {/* Logo */}
+
+          {/* Logo sem fundo */}
           <div className="flex items-center gap-2 mb-6">
-            <div className="w-12 h-12 rounded-full bg-gradient-gold flex items-center justify-center">
-              <span className="font-display text-xl font-bold text-primary-foreground">M</span>
-            </div>
+            <img
+              src={logoDSS}
+              alt="Logo DSS"
+              className="w-[170px] h-[170px] object-contain"            />
           </div>
 
           {/* Name */}
           <h3 className="font-display text-2xl font-semibold mb-2">
-            Marco Silva
+            David Santos Souza
           </h3>
           <p className="text-muted-foreground mb-8 max-w-md">
             Transformando ideias em experiências digitais memoráveis.
@@ -44,10 +47,10 @@ const Footer = () => {
           {/* Divider */}
           <div className="w-full h-px bg-border mb-8" />
 
-          {/* Copyright & Links */}
+          {/* Copyright */}
           <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Marco Silva. Todos os direitos reservados.
+              © {new Date().getFullYear()} David Santos Souza. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors link-underline">
@@ -58,6 +61,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
         </div>
       </div>
     </footer>

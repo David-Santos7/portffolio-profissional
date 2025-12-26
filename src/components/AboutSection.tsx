@@ -4,17 +4,17 @@ const skills = [
   {
     icon: Code2,
     title: "Desenvolvimento",
-    description: "React, TypeScript, Node.js, Python e outras tecnologias modernas.",
+    description: "Foco em HTML, CSS, Javascript. Aprendendo React, Angular, NodeJs VueJs e TypeScript, além de outras tecnologias modernas.",
   },
   {
     icon: Palette,
     title: "Design",
-    description: "UI/UX Design, Figma, design systems e prototipagem.",
+    description: "Estudante de: UI/UX Design, SAAS, Tailwind, Figma, utilização de IA para desenvolvimento de imagens e paletas de cores.",
   },
   {
     icon: Rocket,
     title: "Estratégia",
-    description: "Consultoria técnica, arquitetura de software e otimização.",
+    description: "Escuta ativa para desenvolvimento do projeto. Estudar ferramentas de IA e frameworks para melhoria.",
   },
 ];
 
@@ -26,25 +26,31 @@ const AboutSection = () => {
           {/* Text Content */}
           <div>
             <span className="text-primary text-sm font-medium uppercase tracking-widest mb-4 block">
-              Sobre Mim
+              Saiba mais sobre mim:
             </span>
             <h2 className="font-display text-4xl sm:text-5xl font-semibold mb-6 leading-tight">
-              Olá, sou <span className="text-gradient">Marco Silva</span>
+              Muito Prazer! Sou <span className="text-gradient">David Santos Souza</span>
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Com mais de 8 anos de experiência no desenvolvimento de soluções digitais, 
-                combino expertise técnica com sensibilidade criativa para entregar projetos 
-                que realmente fazem a diferença.
+                Estou realizando uma transição de carreira, atualmente, sou professor de Língua Portuguesa e Língua Inglesa.
+                Dessa maneira, escolhi iniciar a carreira na área de tecnologia como desenvolvedor front-end, trabalhando como freelancer.
+                Tenho estudado uma série de ferramentas como React, Bootstrap, Angular, Kotlin, Android Studio, e Dart, no entanto, o foco 
+                das minhas habilidades são: HTML, CSS e JavaScript.
+              </p>
+              <p>Por conta da IA e seu o crescimento, principalmente em 
+                desenvolvimento de páginas, isso tem dificultado um pouco para iniciantes se estabilizarem na carreira, como eu.
+                Mesmo assim, isso não tem sido um problema, pois, tenho me dedicado a saber como a IA desenvolve sites, e como
+                funcionam suas ferramentas e frameworks. 
               </p>
               <p>
-                Minha abordagem é centrada no usuário, focando em criar experiências 
-                intuitivas e funcionais que conectam marcas aos seus públicos de forma 
-                significativa.
+                Tento criar projetos voltados a Experiência do usuário, assim, estudando um UX/UI em conjunto com o restante do
+                projeto, para que o cliente tenha uma experiência realmente satisfatória. A partir da coleta de dados e informações,
+                crio layouts intuitivos e funcionais, para que eles conectam marcas aos seus públicos de forma significativa.
               </p>
               <p>
-                Acredito que a tecnologia deve simplificar a vida das pessoas, e é isso 
-                que busco em cada projeto que desenvolvo.
+                Tenho a crença que a tecnologia veio para facilitar a vida das pessoas, por isso, busco desenvolver projetos eficazes
+                que façam sentido para os clientes e usuários.
               </p>
             </div>
           </div>

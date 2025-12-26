@@ -3,41 +3,48 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
   {
     type: "work",
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovators",
-    period: "2021 - Presente",
-    description: "Liderança técnica de equipes de desenvolvimento, arquitetura de sistemas escaláveis e implementação de soluções cloud-native.",
+    title: "Front-end Freelancer",
+    company: "Freelancer",
+    period: "2025 - Presente",
+    description: "Aplicação prática de conhecimentos adquiridos em projetos reais, atuando como freelancer",
   },
   {
     type: "work",
-    title: "Full Stack Developer",
-    company: "Digital Agency",
-    period: "2018 - 2021",
-    description: "Desenvolvimento de aplicações web e mobile para clientes de diversos segmentos, desde startups até grandes empresas.",
+    title: "Suporte",
+    company: "SEDUC - Secretaria da Educação",
+    period: "2024 - Presente",
+    description: "Atividades efetivas na área de suporte como: manutenção e atualização básica de notebooks, desktops e impressoras. Verificação da rede local e da central Infranet. Apoio à estudantes e professores.",
   },
   {
     type: "work",
-    title: "Frontend Developer",
-    company: "Creative Studio",
-    period: "2016 - 2018",
-    description: "Criação de interfaces interativas e responsivas, foco em experiência do usuário e performance.",
+    title: "Professor de Língua Inglesa Fundamental",
+    company: "Escola Águia Azul",
+    period: "2022 - Presente",
+    description: "Desenvolvimento de atividades de Língua Inglesa para crianças de 6 a 10 anos. Ensino e aplicabilidade do material Mackenzie Educação.",
   },
 ];
 
 const education = [
   {
     type: "education",
-    title: "MBA em Gestão de Projetos",
-    company: "FGV",
-    period: "2020 - 2022",
-    description: "Especialização em gestão ágil de projetos de tecnologia e inovação.",
+    title: "Graduação - Sistemas de Informação",
+    company: "Faculdade Impacta de Tecnologia",
+    period: "2023 - 2027",
+    description: "Formação em fundamentos de computação, algoritmos, frameworks e estrutura de dados.",
   },
   {
     type: "education",
-    title: "Bacharelado em Ciência da Computação",
-    company: "USP",
-    period: "2012 - 2016",
-    description: "Formação sólida em fundamentos de computação, algoritmos e estrutura de dados.",
+    title: "Graduação - Bacharelado em Tecnologia da Informação",
+    company: "Univesp",
+    period: "2023 - 2026",
+    description: "Base sólida em computação voltada para a resolução de problemas complexos e transformação digital.",
+  },
+  {
+    type: "education",
+    title: "Atualização - Inglês",
+    company: "Cambly",
+    period: "2023 - Presente",
+    description: "Realização de aulas de conversação com professores nativos, para me manter atualizado e estar sempre praticando",
   },
 ];
 
@@ -47,7 +54,7 @@ const ExperienceSection = () => {
       <div className="container">
         <div className="text-center mb-16">
           <span className="text-primary text-sm font-medium uppercase tracking-widest mb-4 block">
-            Trajetória
+            Informações complementares:
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-semibold">
             Experiência & <span className="text-gradient">Formação</span>
