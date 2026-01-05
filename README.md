@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🚀 Performance e UX em Foco  
+### Site Institucional — Empreendimento Residencial de Alto Padrão
 
-## Project info
+Este projeto foi desenvolvido com foco total em **performance**, **experiência do usuário (UX)** e **boas práticas de Front-End**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Mais do que um layout bonito, o principal desafio foi garantir uma navegação **fluida e rápida**, mesmo trabalhando com uma **galeria de imagens pesada** e recursos visuais modernos.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 Objetivo do Projeto
 
-**Use Lovable**
+Criar um **site institucional moderno**, elegante e altamente performático para um empreendimento residencial de alto padrão, priorizando:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- ⚡ Velocidade de carregamento  
+- 🎨 Experiência visual sofisticada  
+- 📱 Responsividade total  
+- ♿ Acessibilidade e usabilidade  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 💡 Destaques Técnicos
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🖼️ Performance de Imagens
+- Lazy Loading para carregamento sob demanda  
+- Efeito **Blur-up**, evitando espaços em branco durante o carregamento  
+- Melhor percepção de velocidade para o usuário  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ✨ Interatividade & UX
+- Galeria estilo **Lightbox**
+- Navegação via teclado  
+- Animações suaves e naturais com **Framer Motion**
 
-Follow these steps:
+### 📱 Mobile-First
+- Layout pensado desde o início para dispositivos móveis  
+- Totalmente responsivo em diferentes resoluções  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- ⚛️ **React** + **TypeScript**  
+- 🎨 **Tailwind CSS**  
+- 🎬 **Framer Motion**  
+- ⚡ **Vite**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🚀 Resultado Final
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Uma aplicação:
 
-**Use GitHub Codespaces**
+- Rápida ⚡  
+- Moderna ✨  
+- Visualmente elegante 🎨  
+- Otimizada para performance e UX 📈  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🔗 Demo / Repositório
 
-This project is built with:
+👉 O link para o **repositório** (https://portffolio-profissional.vercel.app/) está disponível nos comentários.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🏷️ Tags
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+`#ReactJS` `#TypeScript` `#FrontEnd` `#WebDevelopment`  
+`#UX` `#Performance` `#Portfolio`
