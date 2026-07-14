@@ -1,38 +1,35 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
-import ExperienceSection from "@/components/ExperienceSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
+import AboutSection from "@/components/sections/AboutSection";
+import ContactSection from "@/components/sections/ContactSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
+import HeroSection from "@/components/sections/HeroSection";
+import ProjectRobotics from "@/components/sections/ProjectRobotics";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import { usePageMetadata } from "@/hooks/usePageMetadata";
 
-const Index = () => {
+function Index() {
+  usePageMetadata({
+    title: "David Santos Souza | Desenvolvedor Front-end",
+    description: "Portfólio de David Santos Souza, desenvolvedor front-end com projetos em educação e tecnologia aplicada à aprendizagem.",
+    path: "/",
+  });
+
   return (
     <div className="min-h-screen bg-background">
+      <a href="#conteudo" className="skip-link">Pular para o conteúdo</a>
       <Header />
-
-      <main>
-        {/* Hero / topo */}
-        <section id="inicio">
-          <HeroSection />
-        </section>
-
-        {/* Sobre */}
+      <main id="conteudo" tabIndex={-1}>
+        <HeroSection />
         <AboutSection />
-
-        {/* Experiência */}
         <ExperienceSection />
-
-        {/* Projetos */}
         <ProjectsSection />
-
-        {/* Contato */}
+        <ProjectRobotics />
         <ContactSection />
       </main>
-
       <Footer />
     </div>
   );
-};
+}
 
 export default Index;
