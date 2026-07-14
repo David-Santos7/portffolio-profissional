@@ -1,9 +1,11 @@
 # Portfólio profissional — David Santos Souza
 
 Portfólio de [David Santos Souza](https://davidss.com.br), desenvolvedor front-end, educador e profissional de suporte de TI. A aplicação apresenta trajetória, formação, projetos em destaque, laboratório de estudos e canais de contato em uma experiência responsiva com recursos de acessibilidade.
+Observação: foi utilizado a tecnolgoia OpenIA para otimização de trabalho, e aperfeiçoamento do código. Utilizaou-se o codex com prompts bem elaborados e específicos para construção, além LLM web da OpenIA Chat GPT.
 
 ## Tecnologias
 
+- Agente de IA Codex
 - React 18 e TypeScript com modo estrito;
 - Vite 5;
 - Tailwind CSS;
